@@ -1,0 +1,92 @@
+
+    .img-circle{
+      border-radius: 50%;
+      width:55px;
+      height:55px;
+    }
+    .circle{
+      margin: 2px;
+      padding: 5px;
+      width: 30px;
+      height:30px;
+      background:rgb(112, 226, 112);
+      border-radius: 50%;
+      text-align: center;
+      font-size: 16px;
+      color: honeydew;
+      vertical-align:middle"
+    }
+    .card
+    {
+      border:none;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    .card:hover{
+      transform: scale(1.05);
+      box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    }
+    body
+    {
+      font-family: Arial, Helvetica, sans-serif;
+      background:rgb(252, 253, 253);
+    }
+    .page-header
+    {
+      height: 70px;
+      position: relative;
+      box-shadow: 0px 2px 10px rgb(206, 205, 205);
+      vertical-align: middle;
+    }
+    i:hover
+    {
+      transform: scale(1.1);
+    }
+    .num{
+      position: absolute;
+      right: 3px;
+      top: 3px;
+      width: 23px;
+      height: 23px;
+      border-radius: 50%;
+      background: rgb(231, 73, 73);
+      font-size:12px;
+      color: azure;
+      padding: 4px 3px;
+      text-align: center;
+    }
+
+    .sidenav
+    {
+        padding-top: 80px;
+        height: 100%;
+        width:60px;
+        position: fixed;
+        z-index:1;
+        top:0;
+        left:0;
+        background: white;
+        align-content: center
+    }
+    .icn
+    {
+        width:60px;
+        height: 60px;
+        display: block;
+        text-align: center;
+        padding:2px;
+    }
+    .icn:hover{
+        border-right:2px solid;
+        border-color: rgb(12, 180, 180);
+        color: rgb(12, 180, 180); 
+    }
+    a{
+        color:grey;
+    }
+    a:hover{
+        color:grey;
+    }
+
+    button:hover{
+      opacity: 1;
+    }
